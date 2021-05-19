@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="../lib/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../lib/ionicons-1.5.2/ionicons-1.5.2/css/ionicons.css">
+    <link rel="stylesheet" href="../lib/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <section class="header">
+
+            <div class="navigation">
+                <div class="container-fluid">
+                    <div class="navigation-column left">
+                        <div class="logo">
+                            <a href="../index.html">
+                                <img src="../picture/adidas.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navigation-column center">
+                        <ul class="main-menu">
+                            <li><a href="../gioithieu.html">Giới thiệu</a></li>
+                            <li class="menu-item menu-item-has-children dropdown 1">
+                                <a href="">Adidas</ion-icon></a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="../adidas/nam-c107.html">Nam</a></li>
+                                    <li class="menu-item"><a href="../adidas/nu-c6.html">Nữ</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children dropdown 1">
+                                <a href="">Nike</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="../nike/nam-c11.html">Nam</a></li>
+                                    <li class="menu-item"><a href="../nike/nu-c106.html">Nữ</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children dropdown 1">
+                                <a href="">Yeezy</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="../yeezy/yeezy-boost-350-c117.html">YEEZY BOOST
+                                            350</a>
+                                    </li>
+                                    <li class="menu-item"><a href="../yeezy/yeezy-boost-700-c119.html">YEEZY BOOST
+                                            700</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children dropdown 1">
+                                <a href="">Jordan</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="../airjordan.html">AIR JORDAN</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children dropdown 1">
+                                <a href=''>Other Brands</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="../other-brands/sneaker-authentic-c110.html">SNEAKER
+                                            AUTHENTIC</a></li>
+                                    <li class="menu-item"><a href="../other-brands/dep-authentic-c125.html">Dép
+                                            Authentic</a>
+                                    </li>
+                                    <li class="menu-item"><a href="../other-brands/crep-protect-ve-sinh-giay-sneaker-c115.html">Crep
+                                            Protect
+                                            vệ
+                                            sinh giày Sneaker</a></li>
+                                    <li class="menu-item"><a href="../other-brands/box-hop-dung-giay-sneaker-c123.html">Box
+                                            hộp
+                                            đựng giày Sneaker</a></li>
+                                </ul>
+                                <div class="clear"></div>
+                            </li>
+                            <li class=""><a href="">Sale</a></li>
+                            <li class=""><a href="">Spa Giày</a></li>
+                            <li class=""><a href="">King & Queen</a></li>
+                            <li class=""><a href="../lienhe.html">Liên hệ</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="column-right-mobile">
+                        <div class="search-mobile">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </div>
+                        <div class="cart-mobile">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                        <div class="button-menu-mobile">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="overlay-mobile" id="overlay"></div>
+                    </div>
+                    <div class="menu-mobile">
+                        <div class="search-header-mobile">
+                            <h5>Danh mục</h5>
+                            <ion-icon id="closeicon" name="close-outline"></ion-icon>
+                        </div>
+                        <ul class="main-menu-mobile">
+                            <li id="intro-mobile">
+                                <p class="show-border"><a href="../gioithieu.html">Giới thiệu</a></p>
+                            </li>
+                            <li class="menu-item-mobile" id="child-1">
+                                <p class="show-border">Adidas
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </p>
+                                <ul class="sub-menu-mobile" id="menuchild-1">
+                                    <li class="item-mobile"><a href="../adidas/nam-c107.html">Nam</a></li>
+                                    <li class="item-mobile"><a href="../adidas/nu-c6.html">Nữ</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mobile" id="child-2">
+                                <p class="show-border">Nike
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </p>
+                                <ul class="sub-menu-mobile" id="menuchild-2">
+                                    <li class="item-mobile"><a href="../nike/nam-c11.html">Nam</a></li>
+                                    <li class="item-mobile"><a href="../nike/nu-c106.html">Nữ</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mobile" id="child-3">
+                                <p class="show-border">Yeezy
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </p>
+                                <ul class="sub-menu-mobile" id="menuchild-3">
+                                    <li class="item-mobile"><a href="../yeezy/yeezy-boost-350-c117.html">YEEZY BOOST
+                                            350</a>
+                                    </li>
+                                    <li class="item-mobile"><a href="../yeezy/yeezy-boost-700-c119.html">YEEZY BOOST
+                                            700</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mobile" id="child-4">
+                                <p class="show-border">Jordan
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </p>
+                                <ul class="sub-menu-mobile" id="menuchild-4">
+                                    <li class="item-mobile"><a href="../airjordan.html">AIR JORDAN</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-mobile" id="child-5">
+                                <p class="show-border">Other Brands
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </p>
+                                <ul class="sub-menu-mobile" id="menuchild-5">
+                                    <li class="item-mobile"><a href="../other-brands/sneaker-authentic-c110.html">SNEAKER
+                                            AUTHENTIC</a></li>
+                                    <li class="item-mobile"><a href="../other-brands/dep-authentic-c125.html">Dép
+                                            Authentic</a>
+                                    </li>
+                                    <li class="item-mobile"><a href="../other-brands/crep-protect-ve-sinh-giay-sneaker-c115.html">Crep
+                                            Protect
+                                            vệ
+                                            sinh giày Sneaker</a></li>
+                                    <li class="item-mobile"><a href="other-brands/box-hop-dung-giay-sneaker-c123.html">Box
+                                            hộp đựng giày Sneaker</a></li>
+                                </ul>
+                                <div class="clear"></div>
+                            </li>
+                            <li class="">
+                                <p class="show-border">Sale</a>
+                                </p>
+                                <li class="">
+                                    <p class="show-border">Spa Giày</a>
+                                    </p>
+                                    <li class="">
+                                        <p class="show-border">King & Queen</a>
+                                    </li>
+                                    <li class="">
+                                        <p class="show-border">Liên hệ</p>
+                                    </li>
+                        </ul>
+                    </div>
+                    <div class="navigation-column right">
+                        <div class="search-box">
+                            <input type="text" class="search-txt" placeholder="search...">
+                            <a href="" class="search-btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                        <div class="user-box">
+                            <a href="../login.html">
+                                <ion-icon name="person-outline" id="user-icon-menu"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="cart">
+                            <a href="index.html" class="cart-toggle">
+                                <!-- <i class="fas fa-shopping-cart"></i> -->
+                                <img src="../picture/cart_ta.png" class="icon-cart" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="body-page-cart">
+        <div class="wrap-list-chosed">
+            <div class="product_" id="pr0">
+                <div class="wrap-img-product">
+                    <img src="https://vietgiatot.com/wp-content/uploads/2019/09/gi%C3%A0y-ch%E1%BA%A1y-b%E1%BB%99-nam-5.jpg" class="image-shoes" />
+                </div>
+                <div class="info-product">
+                    <div class="name">Biti's Hunter X Summer 2k19 BKL</div>
+                    <div class="size">Size: <span style="color:rgb(0, 183, 255)"> &ensp;32</span></div>
+                    <div class="size">Color: <span style="color:rgb(0, 183, 255)">White</span></div>
+                    <div class="price_">Price: <span style="color:rgb(224, 0, 0)">599.000đ</span></div>
+                    <div class="more-action"><span class="del" id="del0">Xoá</span><span>Để mua
+                            sau</span></div>
+                </div>
+                <div class="price-quantity">
+                    <div style="margin-right: 5px">
+                        <div style="color: rgb(255, 0, 0)">599.000đ</div>
+                        <div style="font-size: 15px"><del style="color:rgb(187, 187, 187)">799.000đ</del> | -14%</div>
+                    </div>
+                    <div style="margin-top: 10px" class="count-product-cart">
+                        <button class="bt0 bt-0">-</button>
+                        <input class="quantity quantity0" value="1" />
+                        <button class="bt0 bt0_">+</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product_" id="pr1">
+                <div class="wrap-img-product">
+                    <img src="https://product.hstatic.net/1000230642/product/02302den__2__8394939ba41947af9ea934ed5f2026d2.jpg" class="image-shoes" />
+                </div>
+                <div class="info-product">
+                    <div class="name">Biti's Hunter X Summer 2k19 BKL</div>
+                    <div class="size">Size: <span style="color:rgb(0, 183, 255)"> &ensp;32</span></div>
+                    <div class="size">Color: <span style="color:rgb(0, 183, 255)">White</span></div>
+                    <div class="price_">Price: <span style="color:rgb(224, 0, 0)">599.000đ</span></div>
+                    <div class="more-action"><span class="del" id="del1">Xoá</span><span>Để mua
+                            sau</span></div>
+                </div>
+                <div class="price-quantity">
+                    <div style="margin-right: 5px">
+                        <div style="color: rgb(255, 0, 0)">599.000đ</div>
+                        <div style="font-size: 15px"><del style="color:rgb(187, 187, 187)">799.000đ</del> | -14%</div>
+                    </div>
+                    <div style="margin-top: 10px">
+                        <button class="bt0 bt-1">-</button>
+                        <input class="quantity quantity1" value="1" />
+                        <button class="bt0 bt1_">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product_" id="pr2">
+                <div class="wrap-img-product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytUXQrvQ8r5VxapV3Km2qgApmyGf1u_WlOQ&usqp=CAU" class="image-shoes" />
+                </div>
+                <div class="info-product">
+                    <div class="name">Biti's Hunter X Summer 2k19 BKL</div>
+                    <div class="size">Size: <span style="color:rgb(0, 183, 255)"> &ensp;32</span></div>
+                    <div class="size">Color: <span style="color:rgb(0, 183, 255)">White</span></div>
+                    <div class="price_">Price: <span style="color:rgb(224, 0, 0)">599.000đ</span></div>
+                    <div class="more-action"><span id="del2" class="del">Xoá</span><span>Để mua
+                            sau</span></div>
+                </div>
+                <div class="price-quantity">
+                    <div style="margin-right: 5px">
+                        <div style="color: rgb(255, 0, 0)">599.000đ</div>
+                        <div style="font-size: 15px"><del style="color:rgb(187, 187, 187)">799.000đ</del> | -14%</div>
+                    </div>
+                    <div style="margin-top: 10px">
+                        <button class="bt0 bt-2">-</button>
+                        <input class="quantity quantity2" value="1" />
+                        <button class="bt0 bt2_">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product_" id="pr3">
+                <div class="wrap-img-product">
+                    <img src="https://image.yes24.vn/Upload/ProductImage/bitis/2045538_L.jpg" class="image-shoes" />
+                </div>
+                <div class="info-product">
+                    <div class="name">Biti's Hunter X Summer 2k19 BKL</div>
+                    <div class="size">Size: <span style="color:rgb(0, 183, 255)"> &ensp;32</span></div>
+                    <div class="size">Color: <span style="color:rgb(0, 183, 255)">White</span></div>
+                    <div class="price_">Price: <span style="color:rgb(224, 0, 0)">599.000đ</span></div>
+                    <div class="more-action"><span class="del" id="del3">Xoá</span><span>Để mua
+                            sau</span></div>
+                </div>
+                <div class="price-quantity">
+                    <div style="margin-right: 5px">
+                        <div style="color: rgb(255, 0, 0)">599.000đ</div>
+                        <div style="font-size: 15px"><del style="color:rgb(187, 187, 187)">799.000đ</del> | -14%</div>
+                    </div>
+                    <div style="margin-top: 10px">
+                        <button class="bt0 bt-3">-</button>
+                        <input class="quantity quantity3" value="1" />
+                        <button class="bt0 bt3_">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap-info-customer">
+            <div class="information-customer">
+                <div style="display: flex">
+                    <div><strong>Địa chỉ nhận hàng</strong></div>
+                    <div class="text0">Thay đổi</div>
+                </div>
+                <hr>
+                <div>Hoàng Tuấn Anh&ensp;<span style="color: rgb(173, 173, 173)">|</span>&ensp;0354031969</div>
+                <br>
+                <div>Thôn 10, xã Bãi Trành, huyện Như Xuân, tỉnh Thanh Hoá</div>
+            </div>
+            <div class="information-customer">
+                <div style="display:flex">
+                    <div><strong>Phiếu giảm giá</strong></div>
+                    <div class="text0">2 sự lựa chọn</div>
+                </div>
+                <hr>
+                <div style="display: flex;">
+                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/mycoupon/coupon_icon.svg" class="img-discount">
+                    <div style="color:rgb(0, 183, 255)">Chọn khuyến mãi áp dụng</div>
+                </div>
+            </div>
+            <div class="information-customer">
+                <div><strong>Thanh toán</strong></div>
+                <hr>
+                <div style="display: flex;">
+                    <div class="text1">Thành tiền</div>
+                    <div style="flex-grow: 1;">
+                        <div class="total-cost"></div>
+                        <div class="text2">(Đã bao gồm thuế VAT)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="btt-pay">
+                Thanh toán
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="row-subscribe">
+                <div class="column-left">
+                    <h3><i class="fas fa-envelope"></i>ĐĂNG KÍ NHẬN CODE</h3>
+                </div>
+                <div class="column-center">
+                    <div class="form">
+                        <input class="form-input" type="text" placeholder="Nhập email nhận tin">
+                        <a href="" class="sub">ĐĂNG KÝ</a>
+                    </div>
+                </div>
+                <div class="column-right">
+                    <p class="text">...Nhận Ngay <span> VOUCHER 100k </span> từ chúng tôi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer top">
+                <div class="row">
+                    <div class="col-4">
+                        <h3>Thông tin liên hệ</h3>
+                        <p><strong>Địa chỉ:</strong></p>
+                        <p><strong>Email:</strong></p>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Hỗ trợ khách hàng</h3>
+                                <p class="footer-item"><a href="">Chăm sóc khách hàng</a></p>
+                                <p class="footer-item"><a href="">Thanh toán</a></p>
+                                <p class="footer-item"><a href="">Hướng dẫn mua hàng</a></p>
+                            </div>
+                            <div class="col-6">
+                                <h3>Chính sách</h3>
+                                <p class="footer-item"><a href="">Chế độ bảo hành</a></p>
+                                <p class="footer-item"><a href="">Chính sách đổi hàng</a></p>
+                                <p class="footer-item"><a href="">Bảo mật thông tin</a></p>
+                                <p class="footer-item"><a href="">Chính sách giao nhận</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h3>Fanpage</h3>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FadidasVN&tabs=timeline&width=400&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="400" height="200"
+                            style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="bottom">
+
+                        <p><i class="far fa-copyright"></i> Bản quyền thuộc về</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer-mobile">
+        <div class="container-mobile">
+            <div class="content-footer">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>KINGSHOES.VN Trang thông tin chính thức</p>
+                <p>Địa chỉ: </p>
+                <p>Email: </p>
+                <h4>FANPAGE</h4>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKingshoes.vnn&tabs=timeline&width=330&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="330" height="150"
+                    style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+</html>
